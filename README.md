@@ -18,10 +18,11 @@ Virtualbox ផ្ដល់អត្ថប្រយោជន៍ដូចជា៖
 <li>កាត់បន្ថយការចំណាយ
 មុខងារសំខាន់ៗរបស់VirtualBox
 ខាងក្រោមនេះខ្ញុំនិងរៀបរាប់យ៉ាងខ្លីពីមុខងារបស់VirtualBox៖
-`..........................................`
+...
 ## 1. របៀបដំឡើង​ Oracle Virtual
 ខាងក្រោមនេះជារបៀបដំឡើង VirtualBox នៅលើប្រពន្ធប្រតិបត្តការ Ubuntu៖<br/>
 មានពីររបៀបក្នុងការដំឡើងគឺ ទីមួយដំឡើងដោយ PPA និងទីពីរដំឡើងដោយ​ file .de។<br/>
+
 ### របៀបដំឡើង `VirtualBox` ដោយ​ `PPA` នៅក្នុង`Ubuntu`
 នេះគឺជារបៀបងាយបំផុតក្នុងការដំឡើង VirtualBox ជំនាន់ថ្មីបំផុត។​ របៀបនេះ ជួយអោយអ្នកដំឡើងបណ្ដារកញ្ចប់ (package) ដែលទាក់ទងនិង VirtualBox ដោយស្វ័យប្រវត្តន៍ ហើយអ្នកប្រើប្រាស់ VirtualBox ជំនាន់ថ្មីបំផុត ព្រោះវានឹងផ្ដល់នៅវា update ជាមួយប្រពន្ធ (system) នៅពេលមានជំនាន់ថ្មី -ល-
 <br/>
@@ -40,9 +41,9 @@ Virtualbox ផ្ដល់អត្ថប្រយោជន៍ដូចជា៖
 <br/>
 ### 1.2 របៀបដំឡើង VirtualBox ដោយ file deb ក្នុង Ubuntu
 ១. ប្រសិនបើកុំព្យូទ័ររបស់អ្នកធ្លាប់ដំឡើង (ជំនាន់ចាស់) អ្នកគួតែវាយបញ្ចូល ឃ្លាបញ្ជាខាងក្រោមដើម្បី លុបវាចោលមុនពេលដំឡើង
-> sudo apt-get remove virtualbo-*
+< sudo apt-get remove virtualbo-*
 ២. ទាញយក file deb ដើម្បីដំឡើង VirtualBox តាមរយៈដំណខាងក្រោម
-> https://www.virtualbox.org/wiki/Linux_Downloads
+< https://www.virtualbox.org/wiki/Linux_Downloads
 ៣. ដំឡើង VirtualBox អ្នកចុចពីរដងនៅលើ file ដែលមានកន្ទុយ .deb ឫក៏ វាយបញ្ចូលឃ្លាបញ្ជាខាងក្រោម ទៅលើ Terminal (ត្រូវចាំថា អ្នកត្រូវប្ដូរ Dircetory ដល់ Directory ដែលមាន file deb)
-> sudo dpkg -i virtualbox-5.0
+< sudo dpkg -i virtualbox-5.0
 
