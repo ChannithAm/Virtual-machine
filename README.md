@@ -27,23 +27,23 @@ Virtualbox ផ្ដល់អត្ថប្រយោជន៍ដូចជា៖
 នេះគឺជារបៀបងាយបំផុតក្នុងការដំឡើង VirtualBox ជំនាន់ថ្មីបំផុត។​ របៀបនេះ ជួយអោយអ្នកដំឡើងបណ្ដារកញ្ចប់ (package) ដែលទាក់ទងនិង VirtualBox ដោយស្វ័យប្រវត្តន៍ ហើយអ្នកប្រើប្រាស់ VirtualBox ជំនាន់ថ្មីបំផុត ព្រោះវានឹងផ្ដល់នៅវា update ជាមួយប្រពន្ធ (system) នៅពេលមានជំនាន់ថ្មី -ល-
 <br/>
 ១. ប្រសិនបើកុំព្យូទ័ររបស់អ្នកធ្លាប់ដំឡើង (ជំនាន់ចាស់) អ្នកគួតែវាយបញ្ចូល ឃ្លាបញ្ជាខាងក្រោមដើម្បី លុបវាចោលមុនពេលដំឡើង
-< sudo apt-get remove virtualbo-*
+> sudo apt-get remove virtualbo-*
 ២.​ ដំបូងអ្នកបន្ថែម PPA របស់VirtualBox ទៅក្នុងស្តុក Ubuntu
 <br/>
-< echo "deb http://download.virtualbox.org/virtualbox/debian $(lsb_release -sc) contrib" | sudo tee -a /etc/apt/sources.list
+> echo "deb http://download.virtualbox.org/virtualbox/debian $(lsb_release -sc) contrib" | sudo tee -a /etc/apt/sources.list
 <br/>
 ៣. បន្ទាប់មកបន្ថែម public key អោយVirtualBox ដោយ apt-secure
-< wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+> wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
 <br/>
 ៤. បន្ទាប់មកដំឡើង VirtualBox 5.0
-< sudo apt-get update
-< sudo apt-get install virtualbox-5.0
+> sudo apt-get update
+> sudo apt-get install virtualbox-5.0
 <br/>
 ### 1.2 របៀបដំឡើង VirtualBox ដោយ file deb ក្នុង Ubuntu
 ១. ប្រសិនបើកុំព្យូទ័ររបស់អ្នកធ្លាប់ដំឡើង (ជំនាន់ចាស់)<br/> អ្នកគួតែវាយបញ្ចូល ឃ្លាបញ្ជាខាងក្រោមដើម្បី លុបវាចោលមុនពេលដំឡើង
-< sudo apt-get remove virtualbo-*
+> sudo apt-get remove virtualbo-*
 ២. ទាញយក file deb ដើម្បីដំឡើង VirtualBox តាមរយៈដំណខាងក្រោម</br>
-< https://www.virtualbox.org/wiki/Linux_Downloads
+> https://www.virtualbox.org/wiki/Linux_Downloads
 ៣. ដំឡើង VirtualBox អ្នកចុចពីរដងនៅលើ file ដែលមានកន្ទុយ .deb ឫក៏ វាយបញ្ចូលឃ្លាបញ្ជាខាងក្រោម ទៅលើ Terminal (ត្រូវចាំថា អ្នកត្រូវប្ដូរ Dircetory ដល់ Directory ដែលមាន file deb)<br/>
-< sudo dpkg -i virtualbox-5.0
+> sudo dpkg -i virtualbox-5.0
 
