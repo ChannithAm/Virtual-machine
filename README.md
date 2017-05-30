@@ -55,3 +55,12 @@ Virtualbox ផ្ដល់អត្ថប្រយោជន៍ដូចជា៖
 ៣. ដំឡើង VirtualBox អ្នកចុចពីរដងនៅលើ file ដែលមានកន្ទុយ .deb ឫក៏ វាយបញ្ចូលឃ្លាបញ្ជាខាងក្រោម ទៅលើ Terminal (ត្រូវចាំថា អ្នកត្រូវប្ដូរ Dircetory ដល់ Directory ដែលមាន file deb)
 > sudo dpkg -i virtualbox-5.0
 
+___
+
+*References*
+> https://tecadmin.net/install-oracle-virtualbox-on-ubuntu/
+
+> http://ubuntuhandbook.org/index.php/2016/07/virtualbox-5-1-released/
+
+
+
