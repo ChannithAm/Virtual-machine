@@ -32,7 +32,7 @@ Virtualbox ផ្ដល់អត្ថប្រយោជន៍ដូចជា៖
 ១. ប្រសិនបើកុំព្យូទ័ររបស់អ្នកធ្លាប់ដំឡើង (ជំនាន់ចាស់) អ្នកគួតែវាយបញ្ចូល ឃ្លាបញ្ជាខាងក្រោមដើម្បី លុបវាចោលមុនពេលដំឡើង
 > sudo apt-get remove virtualbo-*
 <br/>
-២.​ ដំបូងអ្នកបន្ថែម PPA របស់VirtualBox ទៅក្នុងស្តុក Ubuntu
+២.​ ដំបូងអ្នកបន្ថែម PPA របស់VirtualBox ទៅក្នុងស្តុក Ubuntu <br/>
 > echo "deb http://download.virtualbox.org/virtualbox/debian $(lsb_release -sc) contrib" | sudo tee -a /etc/apt/sources.list
 <br/>
 ៣. បន្ទាប់មកបន្ថែម public key អោយVirtualBox ដោយ apt-secure
