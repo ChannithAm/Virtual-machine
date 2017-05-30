@@ -1,5 +1,8 @@
 # Virtual-machine
 អត្ថបទស្ដីអំពីម៉ាសុីននិមិត្ត (Virtual Machine)
+![alt text](https://github.com/ChannithAm/Virtual-machine/blob/master/src/img/vbox.png)
+
+![VirtualBox](/src/img/vbox.png)
 
 ### ម៉ាស៊ីននិមិត្តVirtual Box (VB) ៖ 
 *របៀបដំឡើង និងការបង្កើត virtual machine (បកបណ្ដោះអាសន្នថា ម៉ាស៊ីននិមិត្ត)​នៅលើលើUbuntu*
