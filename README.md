@@ -38,7 +38,7 @@ Virtualbox ផ្ដល់អត្ថប្រយោជន៍ដូចជា៖
 ៣. បន្ទាប់មកបន្ថែម public key អោយVirtualBox ដោយ apt-secure
 > wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
 
-៤. បន្ទាប់មកដំឡើង VirtualBox 5.0
+៤. បន្ទាប់មកដំឡើង VirtualBox 5.1
 > sudo apt-get update
 > sudo apt-get install virtualbox-5.1
 
