@@ -33,7 +33,6 @@ Virtualbox ផ្ដល់អត្ថប្រយោជន៍ដូចជា៖
 > sudo apt-get remove virtualbo-*
 <br/>
 ២.​ ដំបូងអ្នកបន្ថែម PPA របស់VirtualBox ទៅក្នុងស្តុក Ubuntu
-<br/>
 > echo "deb http://download.virtualbox.org/virtualbox/debian $(lsb_release -sc) contrib" | sudo tee -a /etc/apt/sources.list
 <br/>
 ៣. បន្ទាប់មកបន្ថែម public key អោយVirtualBox ដោយ apt-secure
@@ -42,7 +41,6 @@ Virtualbox ផ្ដល់អត្ថប្រយោជន៍ដូចជា៖
 ៤. បន្ទាប់មកដំឡើង VirtualBox 5.0
 > sudo apt-get update
 > sudo apt-get install virtualbox-5.0
-<br/>
 ### 1.2 របៀបដំឡើង VirtualBox ដោយ file deb ក្នុង Ubuntu
 ១. ប្រសិនបើកុំព្យូទ័ររបស់អ្នកធ្លាប់ដំឡើង (ជំនាន់ចាស់)<br/> អ្នកគួតែវាយបញ្ចូល ឃ្លាបញ្ជាខាងក្រោមដើម្បី លុបវាចោលមុនពេលដំឡើង
 > sudo apt-get remove virtualbo-*
