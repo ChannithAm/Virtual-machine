@@ -40,11 +40,13 @@ Virtualbox ផ្ដល់អត្ថប្រយោជន៍ដូចជា៖
 
 ៤. បន្ទាប់មកដំឡើង VirtualBox 5.0
 > sudo apt-get update
-> sudo apt-get install virtualbox-5.0
+> sudo apt-get install virtualbox-5.1
+៥. ដំណើរការ VirtualBox
+> virtualbox
 ### 1.2 របៀបដំឡើង VirtualBox ដោយ file deb ក្នុង Ubuntu
 ១. ប្រសិនបើកុំព្យូទ័ររបស់អ្នកធ្លាប់ដំឡើង (ជំនាន់ចាស់) អ្នកគួតែវាយបញ្ចូល ឃ្លាបញ្ជាខាងក្រោមដើម្បី លុបវាចោលមុនពេលដំឡើង
 > sudo apt-get remove virtualbo-*
-២. ទាញយក file deb ដើម្បីដំឡើង VirtualBox តាមរយៈដំណខាងក្រោម
+២. ទាញយក file deb ដើម្បីដំឡើង VirtualBox តាមរយៈដំណខាងក្រោ
 > https://www.virtualbox.org/wiki/Linux_Downloads
 ៣. ដំឡើង VirtualBox អ្នកចុចពីរដងនៅលើ file ដែលមានកន្ទុយ .deb ឫក៏ វាយបញ្ចូលឃ្លាបញ្ជាខាងក្រោម ទៅលើ Terminal (ត្រូវចាំថា អ្នកត្រូវប្ដូរ Dircetory ដល់ Directory ដែលមាន file deb)
 > sudo dpkg -i virtualbox-5.0
