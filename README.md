@@ -39,8 +39,10 @@ Virtualbox ផ្ដល់អត្ថប្រយោជន៍ដូចជា៖
 > wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
 
 ៤. បន្ទាប់មកដំឡើង VirtualBox 5.0
-> sudo apt-get update
+> sudo apt-get update 
+<br/>
 > sudo apt-get install virtualbox-5.1
+<br/>
 ៥. ដំណើរការ VirtualBox
 > virtualbox
 ### 1.2 របៀបដំឡើង VirtualBox ដោយ file deb ក្នុង Ubuntu
