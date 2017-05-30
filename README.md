@@ -1,6 +1,5 @@
 # Virtual-machine
 អត្ថបទស្ដីអំពីម៉ាសុីននិមិត្ត (Virtual Machine)
-![alt text](https://github.com/ChannithAm/Virtual-machine/blob/master/src/img/vbox.png)
 
 ![VirtualBox](/src/img/vbox.png)
 
