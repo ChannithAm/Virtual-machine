@@ -42,6 +42,7 @@ Virtualbox ផ្ដល់អត្ថប្រយោជន៍ដូចជា៖
 
 ៤. បន្ទាប់មកដំឡើង VirtualBox 5.1
 > sudo apt-get update
+
 > sudo apt-get install virtualbox-5.1
 
 ៥. ដំណើរការ VirtualBox
