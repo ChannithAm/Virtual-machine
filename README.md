@@ -38,8 +38,7 @@ Virtualbox ផ្ដល់អត្ថប្រយោជន៍ដូចជា៖
 > echo "deb http://download.virtualbox.org/virtualbox/debian $(lsb_release -sc) contrib" | sudo tee -a /etc/apt/sources.list
 
 ៣. បន្ទាប់មកបន្ថែម public key អោយVirtualBox ដោយ apt-secure
-> wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
-
+> wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox_2016.asc -O- | sudo apt-key add -
 ៤. បន្ទាប់មកដំឡើង VirtualBox 5.1
 > sudo apt-get update
 
